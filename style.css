@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #DADADA !important;
+    font-family: "Poppins", sans-serif !important;;
+}
+.calculator{
+    width:300px;
+    height:450px;
+    background-color:#DADADA;
+    border-radius:10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.content{
+    height:60vh;
+}
+.display{
+    background-color: #B9B9B9;
+    border:none;
+    height:60px;
+    font-size:31px;
+}
+.display::-webkit-inner-spin-button{
+    -webkit-appearance: none; 
+}
+#point,#multi,#divide,#add{
+    color:#3902FD;
+}
